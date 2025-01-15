@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger the workflow on pushes to the main branch (or master)
+      - main  # Trigger the workflow on pushes to the main branch
 
 jobs:
   deploy:
@@ -18,4 +18,4 @@ jobs:
       with:
         branch: gh-pages   # Deploy to gh-pages branch
         folder: ./         # The folder to deploy (./ for root directory)
-
+        token: ${{ secrets.GH_TOKEN }}  # Use the secret token
