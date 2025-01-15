@@ -13,19 +13,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Setup Node.js (optional, if you have a build step)
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
-
-    - name: Install dependencies (if you need this step for a build process)
-      run: npm install
-
-    - name: Build (optional, if you have a build step like a bundler)
-      run: npm run build
-
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages   # Deploy to gh-pages branch
         folder: ./         # The folder to deploy (./ for root directory)
+
