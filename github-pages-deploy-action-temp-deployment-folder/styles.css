@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column,
+.right-column {
+    width: 48%;
+}
+
+h1, h2, h3 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.75em;
+    color: #2e8b57;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Sub-section Titles */
+.sub-section-title {
+    font-weight: bold;
+    color: #555555;
+}
+
+/* Info Section */
+.info-section {
+    margin-bottom: 20px;
+}
+
+/* Professional Summary */
+ul > li {
+    margin-bottom: 10px;
+}
+
+/* Employment History */
+.job-title {
+    font-size: 1.2em;
+    color: #333333;
+    font-weight: bold;
+}
+
+/* Footer Links */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666666;
+}
